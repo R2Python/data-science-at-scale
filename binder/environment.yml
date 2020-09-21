@@ -1,6 +1,8 @@
 name: data-science-at-scale
 channels:
   - conda-forge
+  - defaults
+  - conda-forge/label/broken
 
 dependencies:
   - python=3.8
